@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+}
+
+.button {
+    border-radius: 27px;
+    border: none;
+    height: 59px;
+    width: 58px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    color: pink;
+    display: grid;
+    height: 100px;
+    width: 260px;
+    border: none;
+    border-radius: 12px;
+    background: red;
+
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    border: 1px solid black;
+    padding: 12px;
+    height: 450px;
+    border-radius: 30px;
+    background: gold;
+    box-shadow: 0px -2px 5px 1px #86d2f2, 1px 2px 5px 4px pink;
+}
+
+
+.first {
+    background: blue;
+    color: red;
+    font-weight: bold;
+}
+
+.symbol {
+    background: blue;
+    color: red;
+    font-size: 30px;
+}
